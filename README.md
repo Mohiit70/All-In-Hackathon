@@ -42,4 +42,4 @@ To maintain a respectful and inclusive community, we follow a [Code of Conduct](
 
 ## Explore More
 
-Begin your open-source journey and contribute effectively with IssueSpotter!
+Begin your open-source journey and contribute effectively with DevPeer Hub!
