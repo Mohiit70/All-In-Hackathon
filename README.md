@@ -1,6 +1,6 @@
 # DevPeer Hub
 
-![Header Image](URL_TO_YOUR_HEADER_IMAGE) <!-- Add a URL to your header image here -->
+![Project Image/GIF](https://raw.githubusercontent.com/Mohiit70/All-In-Hackathon/main/Add%20a%20heading%20(1).png)
 
 ## Overview
 
