@@ -1,31 +1,40 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: montserrat;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     position: relative;
     overflow: hidden;
 }
-#page{
+
+#page {
     position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #fff;
 }
-#page>img{
+
+#page > img {
     position: absolute;
     right: 5%;
     top: 52%;
     transform: translateY(-50%);
     width: 50%;
+    z-index: 1; /* Set a positive z-index to bring the image to the front */
 }
-#page>#nav{
+
+
+
+#page>#nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,23 +44,27 @@ html,body{
     height: 10%;
     width: 100%;
 }
-#center-nav{
+
+#center-nav {
     display: flex;
     gap: 20px;
 }
-#center-nav>a{
+
+#center-nav>a {
     text-decoration: none;
     color: #000;
     font-weight: 500;
     font-size: 18px;
 }
-#nav>input{
+
+#nav>input {
     padding: 10px 5px;
     border-radius: 10px;
     border: 1px solid #dadada;
     text-transform: uppercase;
 }
-#text{
+
+#text {
     padding: 30px 50px;
     position: relative;
     top: 18%;
@@ -60,36 +73,58 @@ html,body{
     width: 35%;
     scale: 1.1;
 }
-#text>h1{
+
+#text>h1 {
     font-size: 60px;
     line-height: 1;
     margin-top: 60px;
 }
 
-#text>h5{
+#text>h5 {
     color: #1998bf;
     transform: rotate(-20deg);
     position: absolute;
     left: 3%;
 }
-#buttons{
+
+#buttons {
     position: absolute;
     left: 0%;
     bottom: 18%;
     height: 20%;
     width: 100%;
 }
-#buttons>button{
-    padding: 10px 40px ;
+
+#buttons>button {
+    padding: 10px 40px;
     border-radius: 10px;
     border: none;
     font-weight: 500;
 }
-#buttons>button>i{
+
+#buttons>button>i {
     font-size: 17px;
 }
 
-#buttons>#b2{
+#buttons>#b2 {
     margin-left: 39px;
-    
+
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#construction-message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 800px;
+    font-size: 16px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
