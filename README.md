@@ -1,6 +1,6 @@
-# All-In-Hackathon
-
 # DevPeer Hub
+
+![Header Image](URL_TO_YOUR_HEADER_IMAGE) <!-- Add a URL to your header image here -->
 
 ## Overview
 
@@ -14,17 +14,32 @@ DevPeer Hub is a collaborative web platform for developers to share their coding
 - **Portfolio Building:** Showcase your work to potential employers, building a robust portfolio.
 - **Community Learning:** Learn from others, discover new coding techniques, and stay updated with the latest industry trends.
 
-## Getting Started
+### Installation
 
-1. Clone the repository to your local machine.
-   
-   ```bash
-   git clone https://github.com/yourusername/devpeer-hub.git
+1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+2. Open `index.html` in your web browser.
+If you have any questions or suggestions, feel free to contact us at YOUR_CONTACT_EMAIL
+
 ## Contributing
-We welcome contributions from the community to make DevPeer Hub even better. To contribute, please follow our Contributing Guidelines.
 
-License
-This project is licensed under the MIT License.
+🎉 Contributions are welcome! If you'd like to contribute to IssueSpotter, follow these steps:
 
-Contact
-If you have any questions or suggestions, feel free to contact us at 
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request.
+
+Please make sure to follow our Code of Conduct and Contributing Guidelines when contributing.
+
+## Code of Conduct
+
+To maintain a respectful and inclusive community, we follow a [Code of Conduct](CODE_OF_CONDUCT.md). Please read and adhere to it.
+
+## License
+
+📝 This project is licensed under Apache License 2.0
+
+## Explore More
+
+Begin your open-source journey and contribute effectively with IssueSpotter!
