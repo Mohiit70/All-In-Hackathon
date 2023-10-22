@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
+
 <body>
     <div id="main">
         <div id="page">
@@ -26,8 +28,32 @@
                 <h5>^</h5>
                 <h1>Collaborative <br>Platform <br>To Share </h1>
                 <div id="buttons">
-                    <button id="b2" >TRY  IT <i class="ri-arrow-right-up-line"></i> </button>
+                    <button id="b2" onclick="triggerConfetti()">TRY IT <i class="ri-arrow-right-up-line"></i></button>
+                    <div id="construction-message" style="display: none;">Under Construction</div>
+
                 </div>
             </div>
         </div>
-        
+        <footer>
+            Made by Mohit
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script>
+        function triggerConfetti() {
+            const jsConfetti = new JSConfetti();
+            jsConfetti.addConfetti();
+
+            const constructionMessage = document.getElementById("construction-message");
+            constructionMessage.style.display = "block";
+
+            setTimeout(function () {
+                constructionMessage.style.display = "none";
+            }, 1000);
+        }
+
+    </script>
+</body>
+
+</html>
